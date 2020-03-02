@@ -7,7 +7,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(String name, String id) {
+    public Student(String id, String name) {
         this.name = name;
         this.id = id;
     }
@@ -30,6 +30,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "id: " + id + "name: " + name;
+        return "id: " + id + " name: " + name;
     }
 }
